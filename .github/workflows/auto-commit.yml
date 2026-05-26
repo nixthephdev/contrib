@@ -1,0 +1,69 @@
+name: Daily Activity
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # morning session
+    - cron: '0 7 * * *'   # midday session
+    - cron: '0 13 * * *'  # afternoon session
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure git
+        run: |
+          git config user.email "nickocalumpiano@gmail.com"
+          git config user.name "Nikko Calumpiano"
+
+      - name: Maybe commit (randomized)
+        run: |
+          # ~60% chance to actually do anything per trigger
+          if [ $((RANDOM % 10)) -lt 4 ]; then
+            echo "Skipping this run"
+            exit 0
+          fi
+
+          # Random sleep up to 45 min to vary exact timestamp
+          sleep $((RANDOM % 2700))
+
+          MESSAGES=(
+            "fix: resolve edge case in data processing"
+            "fix: correct off-by-one error"
+            "fix: handle null values properly"
+            "fix: patch broken validation logic"
+            "feat: add input sanitization"
+            "feat: improve error handling"
+            "feat: add utility helper"
+            "feat: extend log output format"
+            "chore: update dependencies"
+            "chore: routine maintenance"
+            "chore: clean up unused entries"
+            "refactor: simplify conditional logic"
+            "refactor: extract repeated block"
+            "refactor: rename for clarity"
+            "docs: update notes"
+            "docs: add usage example"
+            "style: fix indentation"
+            "style: clean up formatting"
+          )
+
+          # 1 to 3 commits per session
+          COUNT=$((RANDOM % 3 + 1))
+
+          for i in $(seq 1 $COUNT); do
+            MSG="${MESSAGES[$RANDOM % ${#MESSAGES[@]}]}"
+            echo "$(date -u +'%Y-%m-%d %H:%M:%S UTC') | $MSG" >> logs/activity.log
+            git add logs/activity.log
+            git commit -m "$MSG"
+            # small gap between commits
+            sleep $((RANDOM % 60 + 10))
+          done
+
+          git push
