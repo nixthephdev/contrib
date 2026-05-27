@@ -19,8 +19,8 @@ jobs:
 
       - name: Configure git
         run: |
-          git config user.email "nickocalumpiano@gmail.com"
-          git config user.name "Nikko Calumpiano"
+          git config user.email "fidelbramosjunior@gmail.com"
+          git config user.name "nixthephdev"
 
       - name: Maybe commit (randomized)
         run: |
