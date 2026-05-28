@@ -6,3 +6,4 @@
 2026-05-27 16:38:34 UTC | feat: extend log output format
 2026-05-28 17:07:09 UTC | feat: extend log output format
 2026-05-28 17:08:01 UTC | fix: correct off-by-one error
+2026-05-28 17:08:25 UTC | feat: add utility helper
