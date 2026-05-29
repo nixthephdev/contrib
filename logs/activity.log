@@ -7,3 +7,4 @@
 2026-05-28 17:07:09 UTC | feat: extend log output format
 2026-05-28 17:08:01 UTC | fix: correct off-by-one error
 2026-05-28 17:08:25 UTC | feat: add utility helper
+2026-05-29 06:38:46 UTC | refactor: rename for clarity
