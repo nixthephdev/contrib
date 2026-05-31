@@ -15,3 +15,4 @@
 2026-05-30 09:17:25 UTC | fix: patch broken validation logic
 2026-05-30 09:18:12 UTC | feat: add input sanitization
 2026-05-31 06:14:49 UTC | chore: clean up unused entries
+2026-05-31 06:15:26 UTC | docs: add usage example
