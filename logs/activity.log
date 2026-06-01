@@ -18,3 +18,4 @@
 2026-05-31 06:15:26 UTC | docs: add usage example
 2026-05-31 10:05:36 UTC | feat: add utility helper
 2026-06-01 06:56:59 UTC | style: fix indentation
+2026-06-01 06:57:53 UTC | fix: handle null values properly
