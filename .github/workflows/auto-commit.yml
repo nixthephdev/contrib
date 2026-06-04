@@ -2,9 +2,18 @@ name: Daily Activity
 
 on:
   schedule:
-    - cron: '0 2 * * *'   # morning session
-    - cron: '0 7 * * *'   # midday session
-    - cron: '0 13 * * *'  # afternoon session
+    - cron: '0 0 * * *'   # 8am PHT
+    - cron: '0 2 * * *'   # 10am PHT
+    - cron: '0 4 * * *'   # 12pm PHT
+    - cron: '0 6 * * *'   # 2pm PHT
+    - cron: '0 8 * * *'   # 4pm PHT
+    - cron: '0 10 * * *'  # 6pm PHT
+    - cron: '0 12 * * *'  # 8pm PHT
+    - cron: '0 14 * * *'  # 10pm PHT
+    - cron: '0 16 * * *'  # 12am PHT
+    - cron: '0 18 * * *'  # 2am PHT
+    - cron: '0 20 * * *'  # 4am PHT
+    - cron: '0 22 * * *'  # 6am PHT
   workflow_dispatch:
 
 permissions:
@@ -22,48 +31,123 @@ jobs:
           git config user.email "fidelbramosjunior@gmail.com"
           git config user.name "nixthephdev"
 
-      - name: Maybe commit (randomized)
+      - name: Commit activity
         run: |
-          # ~60% chance to actually do anything per trigger
-          if [ $((RANDOM % 10)) -lt 4 ]; then
+          DAY=$(date +%u)   # 1=Mon ... 5=Fri ... 6=Sat ... 7=Sun
+          HOUR=$(date +%H)  # UTC hour (PHT = UTC+8)
+
+          # --- Day type ---
+          if [ "$DAY" -eq 6 ] || [ "$DAY" -eq 7 ]; then
+            DAY_TYPE="weekend"
+          elif [ "$DAY" -eq 5 ]; then
+            DAY_TYPE="friday"
+          else
+            DAY_TYPE="weekday"
+          fi
+
+          # --- PHT-aware skip threshold (higher = more likely to skip) ---
+          # 0 UTC=8am, 2=10am, 4=12pm, 6=2pm PHT → peak hours
+          # 8=4pm, 10=6pm PHT → winding down
+          # 12=8pm, 14=10pm PHT → evening
+          # 16=12am, 18=2am, 20=4am PHT → sleep
+          # 22=6am PHT → early morning
+          case "$HOUR" in
+            00|02|04|06) BASE_SKIP=1 ;;  # peak (8am-2pm PHT)
+            08)          BASE_SKIP=2 ;;  # 4pm PHT
+            10)          BASE_SKIP=3 ;;  # 6pm PHT
+            12)          BASE_SKIP=5 ;;  # 8pm PHT
+            14)          BASE_SKIP=7 ;;  # 10pm PHT
+            16|18|20)    BASE_SKIP=9 ;;  # 12am-4am PHT (sleep)
+            22)          BASE_SKIP=8 ;;  # 6am PHT
+            *)           BASE_SKIP=5 ;;
+          esac
+
+          # Adjust thresholds and commit ranges by day type
+          if [ "$DAY_TYPE" = "weekend" ]; then
+            SKIP_THRESHOLD=$(( BASE_SKIP + 2 ))
+            [ "$SKIP_THRESHOLD" -gt 9 ] && SKIP_THRESHOLD=9
+            MIN_COMMITS=1
+            MAX_COMMITS=3
+
+          elif [ "$DAY_TYPE" = "friday" ]; then
+            SKIP_THRESHOLD=$(( BASE_SKIP - 1 ))
+            [ "$SKIP_THRESHOLD" -lt 0 ] && SKIP_THRESHOLD=0
+            MIN_COMMITS=5
+            MAX_COMMITS=9
+
+          else
+            SKIP_THRESHOLD=$BASE_SKIP
+            MIN_COMMITS=3
+            MAX_COMMITS=5
+          fi
+
+          if [ $((RANDOM % 10)) -lt $SKIP_THRESHOLD ]; then
             echo "Skipping this run"
             exit 0
           fi
 
-          # Random sleep up to 45 min to vary exact timestamp
+          # Random sleep up to 45 min to spread exact timestamps naturally
           sleep $((RANDOM % 2700))
 
-          MESSAGES=(
-            "fix: resolve edge case in data processing"
-            "fix: correct off-by-one error"
-            "fix: handle null values properly"
-            "fix: patch broken validation logic"
-            "feat: add input sanitization"
-            "feat: improve error handling"
-            "feat: add utility helper"
-            "feat: extend log output format"
-            "chore: update dependencies"
-            "chore: routine maintenance"
-            "chore: clean up unused entries"
-            "refactor: simplify conditional logic"
-            "refactor: extract repeated block"
-            "refactor: rename for clarity"
-            "docs: update notes"
-            "docs: add usage example"
-            "style: fix indentation"
-            "style: clean up formatting"
+          # --- Dynamic commit message components ---
+          PREFIXES=("fix" "feat" "chore" "refactor" "docs" "style" "test" "perf")
+          SCOPES=("auth" "api" "ui" "db" "cache" "utils" "config" "parser" "logger" "validator" "router" "handler")
+          ACTIONS=(
+            "resolve edge case in logic"
+            "correct off-by-one error"
+            "handle null values properly"
+            "patch broken validation"
+            "add input sanitization"
+            "improve error handling"
+            "extend output format"
+            "update dependencies"
+            "clean up unused code"
+            "simplify conditional logic"
+            "extract repeated block"
+            "rename variable for clarity"
+            "add usage example"
+            "fix indentation issues"
+            "improve readability"
+            "remove redundant check"
+            "add missing guard clause"
+            "optimize query performance"
+            "fix typo in message"
+            "update default values"
+            "add type annotations"
+            "improve test coverage"
+            "fix race condition"
+            "update error messages"
+            "add missing return statement"
+            "refactor nested conditions"
+            "consolidate duplicate logic"
+            "fix incorrect regex pattern"
+            "update interface contract"
+            "trim unnecessary dependencies"
           )
 
-          # 1 to 3 commits per session
-          COUNT=$((RANDOM % 3 + 1))
+          # --- Files to rotate between ---
+          FILES=(
+            "logs/activity.log"
+            "logs/debug.log"
+            "data/metrics.txt"
+            "config/env.txt"
+          )
+
+          COUNT=$(( RANDOM % (MAX_COMMITS - MIN_COMMITS + 1) + MIN_COMMITS ))
 
           for i in $(seq 1 $COUNT); do
-            MSG="${MESSAGES[$RANDOM % ${#MESSAGES[@]}]}"
-            echo "$(date -u +'%Y-%m-%d %H:%M:%S UTC') | $MSG" >> logs/activity.log
-            git add logs/activity.log
+            PREFIX="${PREFIXES[$RANDOM % ${#PREFIXES[@]}]}"
+            SCOPE="${SCOPES[$RANDOM % ${#SCOPES[@]}]}"
+            ACTION="${ACTIONS[$RANDOM % ${#ACTIONS[@]}]}"
+            MSG="$PREFIX($SCOPE): $ACTION"
+
+            FILE="${FILES[$RANDOM % ${#FILES[@]}]}"
+            mkdir -p "$(dirname "$FILE")"
+            echo "$(date -u +'%Y-%m-%d %H:%M:%S UTC') | $MSG" >> "$FILE"
+
+            git add "$FILE"
             git commit -m "$MSG"
-            # small gap between commits
-            sleep $((RANDOM % 60 + 10))
+            sleep $((RANDOM % 90 + 15))
           done
 
           git push
