@@ -89,41 +89,56 @@ jobs:
           # Random sleep up to 45 min to spread exact timestamps naturally
           sleep $((RANDOM % 2700))
 
-          # --- Dynamic commit message components ---
-          PREFIXES=("fix" "feat" "chore" "refactor" "docs" "style" "test" "perf")
+          # --- Commit message generation ---
           SCOPES=("auth" "api" "ui" "db" "cache" "utils" "config" "parser" "logger" "validator" "router" "handler")
-          ACTIONS=(
-            "resolve edge case in logic"
-            "correct off-by-one error"
-            "handle null values properly"
-            "patch broken validation"
-            "add input sanitization"
-            "improve error handling"
-            "extend output format"
-            "update dependencies"
-            "clean up unused code"
-            "simplify conditional logic"
-            "extract repeated block"
-            "rename variable for clarity"
-            "add usage example"
-            "fix indentation issues"
-            "improve readability"
-            "remove redundant check"
-            "add missing guard clause"
-            "optimize query performance"
-            "fix typo in message"
-            "update default values"
-            "add type annotations"
-            "improve test coverage"
-            "fix race condition"
-            "update error messages"
-            "add missing return statement"
-            "refactor nested conditions"
-            "consolidate duplicate logic"
-            "fix incorrect regex pattern"
-            "update interface contract"
-            "trim unnecessary dependencies"
+
+          PLAIN_MSGS=(
+            "minor fix" "cleanup" "update" "small fix" "tweaks"
+            "fix typo" "update config" "minor update" "clean up"
+            "quick fix" "minor changes" "wip" "update notes"
+            "hotfix" "patch" "fixes" "updates" "small update"
+            "minor tweaks" "tidy up"
           )
+
+          generate_msg() {
+            SCOPE="${SCOPES[$RANDOM % ${#SCOPES[@]}]}"
+
+            if [ $((RANDOM % 10)) -lt 4 ]; then
+              # 40% plain casual
+              echo "${PLAIN_MSGS[$RANDOM % ${#PLAIN_MSGS[@]}]}"
+            else
+              # 60% conventional with semantic grouping
+              CATEGORY=$((RANDOM % 8))
+              case $CATEGORY in
+                0) PREFIX="fix"
+                   ACTS=("resolve edge case" "correct off-by-one error" "handle null values" "patch broken validation" "fix race condition" "add missing return" "add missing guard clause" "fix broken flow" "fix incorrect regex")
+                   ;;
+                1) PREFIX="feat"
+                   ACTS=("add input sanitization" "extend output format" "add utility helper" "add type annotations" "extend functionality" "add new endpoint" "add retry logic")
+                   ;;
+                2) PREFIX="perf"
+                   ACTS=("optimize query performance" "reduce memory usage" "improve response time" "trim unnecessary dependencies" "cache repeated calls" "lazy load module")
+                   ;;
+                3) PREFIX="refactor"
+                   ACTS=("simplify conditional logic" "extract repeated block" "rename variable for clarity" "consolidate duplicate logic" "refactor nested conditions" "update interface contract")
+                   ;;
+                4) PREFIX="style"
+                   ACTS=("fix indentation issues" "improve readability" "clean up formatting" "remove trailing whitespace" "normalize spacing" "consistent quotes")
+                   ;;
+                5) PREFIX="test"
+                   ACTS=("improve test coverage" "add edge case tests" "fix flaky test" "add missing assertions" "update test fixtures" "add integration test")
+                   ;;
+                6) PREFIX="docs"
+                   ACTS=("add usage example" "update inline notes" "clarify function purpose" "add param descriptions" "update documentation")
+                   ;;
+                *) PREFIX="chore"
+                   ACTS=("update dependencies" "clean up unused code" "remove redundant check" "routine maintenance" "update default values" "remove dead code")
+                   ;;
+              esac
+              ACTION="${ACTS[$RANDOM % ${#ACTS[@]}]}"
+              echo "$PREFIX($SCOPE): $ACTION"
+            fi
+          }
 
           # --- Files to rotate between ---
           FILES=(
@@ -136,10 +151,7 @@ jobs:
           COUNT=$(( RANDOM % (MAX_COMMITS - MIN_COMMITS + 1) + MIN_COMMITS ))
 
           for i in $(seq 1 $COUNT); do
-            PREFIX="${PREFIXES[$RANDOM % ${#PREFIXES[@]}]}"
-            SCOPE="${SCOPES[$RANDOM % ${#SCOPES[@]}]}"
-            ACTION="${ACTIONS[$RANDOM % ${#ACTIONS[@]}]}"
-            MSG="$PREFIX($SCOPE): $ACTION"
+            MSG=$(generate_msg)
 
             FILE="${FILES[$RANDOM % ${#FILES[@]}]}"
             mkdir -p "$(dirname "$FILE")"
