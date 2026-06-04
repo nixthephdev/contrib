@@ -40,3 +40,4 @@
 2026-06-04 10:28:28 UTC | docs(api): add param descriptions
 2026-06-04 11:51:22 UTC | perf(validator): reduce memory usage
 2026-06-04 13:17:10 UTC | fix(cache): handle null values
+2026-06-04 13:18:09 UTC | minor fix
