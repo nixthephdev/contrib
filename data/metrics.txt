@@ -3,3 +3,4 @@
 2026-06-04 07:07:37 UTC | docs(handler): update documentation
 2026-06-04 10:29:20 UTC | tweaks
 2026-06-04 11:53:50 UTC | quick fix
+2026-06-04 11:55:23 UTC | chore(router): update default values
