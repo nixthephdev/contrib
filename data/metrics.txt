@@ -13,3 +13,4 @@
 2026-06-05 08:23:05 UTC | fix(config): fix incorrect regex
 2026-06-05 08:24:42 UTC | minor tweaks
 2026-06-05 08:25:45 UTC | minor fix
+2026-06-05 08:26:23 UTC | perf(config): improve response time
