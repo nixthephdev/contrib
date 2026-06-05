@@ -58,3 +58,4 @@
 2026-06-05 14:44:14 UTC | patch
 2026-06-05 18:06:27 UTC | docs(parser): update documentation
 2026-06-05 18:10:15 UTC | test(utils): add edge case tests
+2026-06-05 19:52:20 UTC | style(auth): improve readability
