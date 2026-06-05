@@ -1,13 +1,35 @@
 # dev-toolbox
 
-A personal collection of dev utilities, config snippets, and helper scripts I use across projects.
+A personal collection of development utilities, automation scripts, and config templates I use across my projects.
 
-## Contents
+## Overview
 
-- `config/` — environment configs and settings
-- `data/` — local metrics and tracked data
-- `logs/` — activity and debug logs
+This repo serves as my go-to toolkit for repetitive dev tasks — things like environment setup, log tracking, metrics collection, and project scaffolding helpers.
 
-## Stack
+## Structure
 
-Bash · Git · GitHub Actions
+```
+dev-toolbox/
+├── config/        # Reusable environment configs and settings templates
+├── data/          # Local metrics, benchmarks, and tracked project data
+├── logs/          # Activity logs and debug output
+└── .github/       # Workflow automation
+```
+
+## Usage
+
+Clone and adapt any script or config to your own project:
+
+```bash
+git clone https://github.com/nixthephdev/dev-toolbox.git
+```
+
+## Tech
+
+- Bash scripting
+- GitHub Actions
+- Git workflows
+
+## Notes
+
+Scripts are written for personal use and may need adjustments for your environment. Use at your own discretion.
