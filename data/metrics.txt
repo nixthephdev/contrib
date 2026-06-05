@@ -10,3 +10,4 @@
 2026-06-05 04:25:20 UTC | tweaks
 2026-06-05 04:25:51 UTC | feat(api): add new endpoint
 2026-06-05 04:26:28 UTC | patch
+2026-06-05 08:23:05 UTC | fix(config): fix incorrect regex
