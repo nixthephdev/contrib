@@ -14,3 +14,4 @@
 2026-06-05 19:51:52 UTC | perf(validator): trim unnecessary dependencies
 2026-06-05 19:56:21 UTC | update notes
 2026-06-05 19:57:20 UTC | refactor(router): simplify conditional logic
+2026-06-05 23:24:54 UTC | chore(ui): clean up unused code
