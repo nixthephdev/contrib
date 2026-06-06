@@ -18,3 +18,4 @@
 2026-06-05 23:27:35 UTC | chore(parser): remove redundant check
 2026-06-06 07:27:04 UTC | chore(auth): remove dead code
 2026-06-06 09:15:17 UTC | docs(api): update documentation
+2026-06-06 09:15:54 UTC | feat(auth): extend output format
