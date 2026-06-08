@@ -74,3 +74,4 @@
 2026-06-08 17:36:09 UTC | chore(api): update dependencies
 2026-06-08 17:36:50 UTC | update notes
 2026-06-08 22:32:42 UTC | minor tweaks
+2026-06-08 23:24:14 UTC | fix(cache): add missing guard clause
