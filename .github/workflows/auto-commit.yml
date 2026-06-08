@@ -162,4 +162,5 @@ jobs:
             sleep $((RANDOM % 90 + 15))
           done
 
+          git pull --rebase origin main
           git push
