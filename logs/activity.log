@@ -68,3 +68,4 @@
 2026-06-07 10:45:09 UTC | chore(logger): update dependencies
 2026-06-08 06:51:25 UTC | perf(validator): lazy load module
 2026-06-08 11:18:31 UTC | tweaks
+2026-06-08 11:19:54 UTC | test(auth): update test fixtures
