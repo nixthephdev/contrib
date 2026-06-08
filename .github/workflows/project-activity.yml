@@ -1,0 +1,128 @@
+name: Project Activity
+
+on:
+  schedule:
+    - cron: '0 1 * * 1'   # Monday 9am PHT
+    - cron: '0 1 * * 3'   # Wednesday 9am PHT
+    - cron: '0 1 * * 5'   # Friday 9am PHT
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  activity:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4.2.2
+
+      - name: Configure git
+        run: |
+          git config user.email "fidelbramosjunior@gmail.com"
+          git config user.name "nixthephdev"
+
+      - name: Issue activity
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLES=(
+            "null handling missing in config loader"
+            "logger not flushing on process exit"
+            "metrics timestamp off by one"
+            "add retry logic to failed requests"
+            "env vars not loading from nested config"
+            "debug log level not persisting after restart"
+            "parser fails on empty input string"
+            "handler throws on missing required field"
+            "cache not invalidating on config update"
+            "router not matching wildcard paths correctly"
+            "improve error messages for invalid input"
+            "add timeout support to request handler"
+            "validator skips optional fields incorrectly"
+            "utils module missing edge case handling"
+            "api response not sanitized before logging"
+          )
+          BODIES=(
+            "Noticed this while testing locally. Needs a closer look."
+            "Reproducible in certain edge cases. Should be a quick fix."
+            "Seen this intermittently. Might be environment-specific."
+            "Would improve reliability. Low priority for now."
+            "Found during routine testing. Worth tracking."
+            "Came up while debugging another issue. Logging it here."
+          )
+
+          # 70% chance to open a new issue
+          if [ $((RANDOM % 10)) -lt 7 ]; then
+            TITLE="${TITLES[$RANDOM % ${#TITLES[@]}]}"
+            BODY="${BODIES[$RANDOM % ${#BODIES[@]}]}"
+            gh issue create --title "$TITLE" --body "$BODY"
+          fi
+
+          # 40% chance to close an existing open issue
+          if [ $((RANDOM % 10)) -lt 4 ]; then
+            OPEN=$(gh issue list --state open --limit 10 --json number --jq '.[].number' | shuf | head -1)
+            if [ -n "$OPEN" ]; then
+              gh issue close "$OPEN" --comment "Resolved in latest commit."
+            fi
+          fi
+
+      - name: PR activity
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 40% chance to create and merge a PR
+          if [ $((RANDOM % 10)) -lt 4 ]; then
+            SCOPES=("auth" "api" "config" "parser" "logger" "validator" "router" "handler" "cache" "utils")
+            SCOPE="${SCOPES[$RANDOM % ${#SCOPES[@]}]}"
+            TYPES=("fix" "feat" "refactor" "perf" "chore")
+            TYPE="${TYPES[$RANDOM % ${#TYPES[@]}]}"
+
+            case $TYPE in
+              fix)
+                ACTS=("handle null values" "correct validation logic" "fix off-by-one" "add missing guard clause")
+                ;;
+              feat)
+                ACTS=("add retry logic" "extend output options" "add type hints" "add input validation")
+                ;;
+              refactor)
+                ACTS=("simplify conditional logic" "extract helper function" "consolidate duplicate logic")
+                ;;
+              perf)
+                ACTS=("cache repeated calls" "lazy load module" "optimize repeated lookups")
+                ;;
+              chore)
+                ACTS=("update dependencies" "remove dead code" "clean up unused imports")
+                ;;
+            esac
+
+            ACTION="${ACTS[$RANDOM % ${#ACTS[@]}]}"
+            BRANCH="$TYPE/$SCOPE-$(date +%s)"
+            MSG="$TYPE($SCOPE): $ACTION"
+
+            git checkout -b "$BRANCH"
+            mkdir -p logs
+            echo "$(date -u +'%Y-%m-%d %H:%M:%S UTC') | $MSG" >> logs/activity.log
+            git add logs/activity.log
+            git commit -m "$MSG"
+            git push origin "$BRANCH"
+
+            sleep $((RANDOM % 120 + 30))
+
+            gh pr create \
+              --title "$MSG" \
+              --body "## Changes
+- $ACTION in \`$SCOPE\` module
+
+## Test plan
+- [ ] Verified locally
+- [ ] No regressions observed" \
+              --base main \
+              --head "$BRANCH"
+
+            sleep $((RANDOM % 300 + 120))
+
+            gh pr merge "$BRANCH" --squash --delete-branch
+          fi
