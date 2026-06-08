@@ -111,14 +111,11 @@ jobs:
 
             sleep $((RANDOM % 120 + 30))
 
+            PR_BODY=$(printf "## Changes\n- %s in \`%s\` module\n\n## Test plan\n- [ ] Verified locally\n- [ ] No regressions observed" "$ACTION" "$SCOPE")
+
             gh pr create \
               --title "$MSG" \
-              --body "## Changes
-- $ACTION in \`$SCOPE\` module
-
-## Test plan
-- [ ] Verified locally
-- [ ] No regressions observed" \
+              --body "$PR_BODY" \
               --base main \
               --head "$BRANCH"
 
