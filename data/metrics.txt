@@ -33,3 +33,4 @@
 2026-06-08 17:37:43 UTC | fix(router): fix broken flow
 2026-06-08 23:24:51 UTC | update config
 2026-06-09 06:37:04 UTC | test(config): fix flaky test
+2026-06-09 06:39:28 UTC | chore(handler): remove redundant check
