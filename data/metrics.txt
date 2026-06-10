@@ -38,3 +38,4 @@
 2026-06-09 09:52:19 UTC | feat(cache): extend functionality
 2026-06-10 13:07:26 UTC | chore(handler): update default values
 2026-06-10 13:08:07 UTC | chore(db): update default values
+2026-06-10 23:36:19 UTC | refactor(router): consolidate duplicate logic
