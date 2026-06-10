@@ -35,3 +35,4 @@
 2026-06-10 10:39:21 UTC | refactor(logger): consolidate duplicate logic
 2026-06-10 13:05:43 UTC | fix(db): add missing guard clause
 2026-06-10 22:36:50 UTC | test(db): fix flaky test
+2026-06-10 23:34:59 UTC | chore(cache): remove redundant check
