@@ -31,3 +31,4 @@
 2026-06-08 17:35:31 UTC | feat(api): extend output format
 2026-06-08 22:30:54 UTC | cleanup
 2026-06-09 13:09:37 UTC | feat(ui): add new endpoint
+2026-06-10 10:37:36 UTC | feat(utils): add retry logic
