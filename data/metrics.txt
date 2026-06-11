@@ -41,3 +41,4 @@
 2026-06-10 23:36:19 UTC | refactor(router): consolidate duplicate logic
 2026-06-11 08:50:26 UTC | perf(db): improve response time
 2026-06-11 08:50:45 UTC | fix(router): fix incorrect regex
+2026-06-11 10:33:44 UTC | docs(db): add param descriptions
