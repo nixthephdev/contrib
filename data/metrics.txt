@@ -47,3 +47,4 @@
 2026-06-11 22:16:27 UTC | test(config): fix flaky test
 2026-06-11 23:20:36 UTC | fix(config): fix race condition
 2026-06-11 23:22:05 UTC | feat(handler): add retry logic
+2026-06-11 23:23:28 UTC | docs(cache): update documentation
