@@ -39,3 +39,4 @@
 2026-06-11 04:12:10 UTC | refactor(utils): consolidate duplicate logic
 2026-06-11 04:13:17 UTC | test(validator): add edge case tests
 2026-06-11 04:17:27 UTC | clean up
+2026-06-11 07:05:28 UTC | feat(utils): extend output format
