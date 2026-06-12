@@ -45,3 +45,4 @@
 2026-06-11 08:48:44 UTC | perf(logger): lazy load module
 2026-06-11 10:34:03 UTC | refactor(auth): extract repeated block
 2026-06-12 04:29:07 UTC | feat(validator): add type annotations
+2026-06-12 04:30:55 UTC | docs(parser): add usage example
