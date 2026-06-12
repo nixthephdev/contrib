@@ -53,3 +53,4 @@
 2026-06-12 08:45:44 UTC | minor fix
 2026-06-12 13:25:48 UTC | minor fix
 2026-06-12 13:26:17 UTC | fix(parser): patch broken validation
+2026-06-12 13:27:59 UTC | test(db): add edge case tests
