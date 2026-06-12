@@ -92,3 +92,4 @@
 2026-06-11 22:17:21 UTC | style(handler): clean up formatting
 2026-06-11 23:19:15 UTC | feat(logger): add new endpoint
 2026-06-12 04:33:14 UTC | small fix
+2026-06-12 05:27:10 UTC | refactor(config): simplify conditional logic
