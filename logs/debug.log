@@ -54,3 +54,4 @@
 2026-06-12 23:37:40 UTC | cleanup
 2026-06-13 06:15:39 UTC | feat(cache): extend output format
 2026-06-13 17:34:00 UTC | update config
+2026-06-13 21:08:32 UTC | perf(config): lazy load module
