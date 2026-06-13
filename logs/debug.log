@@ -52,3 +52,4 @@
 2026-06-12 22:11:07 UTC | refactor(validator): simplify conditional logic
 2026-06-12 22:13:04 UTC | minor tweaks
 2026-06-12 23:37:40 UTC | cleanup
+2026-06-13 06:15:39 UTC | feat(cache): extend output format
