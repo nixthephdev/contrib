@@ -57,3 +57,4 @@
 2026-06-13 21:08:32 UTC | perf(config): lazy load module
 2026-06-14 06:43:08 UTC | tweaks
 2026-06-15 04:29:03 UTC | style(cache): remove trailing whitespace
+2026-06-15 07:31:42 UTC | fix(handler): fix incorrect regex
