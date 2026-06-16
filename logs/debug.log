@@ -64,3 +64,4 @@
 2026-06-16 00:05:33 UTC | tidy up
 2026-06-16 07:22:22 UTC | test(handler): fix flaky test
 2026-06-16 07:24:18 UTC | style(cache): normalize spacing
+2026-06-16 07:25:27 UTC | feat(auth): add utility helper
