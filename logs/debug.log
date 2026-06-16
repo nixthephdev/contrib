@@ -72,3 +72,4 @@
 2026-06-16 20:03:06 UTC | refactor(utils): extract repeated block
 2026-06-16 20:05:14 UTC | fix(config): add missing guard clause
 2026-06-16 23:37:21 UTC | perf(api): cache repeated calls
+2026-06-16 23:39:00 UTC | refactor(utils): refactor nested conditions
