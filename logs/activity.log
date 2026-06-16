@@ -115,3 +115,4 @@
 2026-06-15 20:04:55 UTC | clean up
 2026-06-16 00:06:41 UTC | tidy up
 2026-06-16 07:23:39 UTC | wip
+2026-06-16 15:50:20 UTC | feat(logger): add retry logic
