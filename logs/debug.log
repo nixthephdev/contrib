@@ -75,3 +75,4 @@
 2026-06-16 23:39:00 UTC | refactor(utils): refactor nested conditions
 2026-06-17 09:45:16 UTC | docs(router): add usage example
 2026-06-17 09:48:25 UTC | refactor(router): extract repeated block
+2026-06-17 12:18:14 UTC | feat(router): add utility helper
