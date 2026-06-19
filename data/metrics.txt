@@ -81,3 +81,4 @@
 2026-06-18 10:44:19 UTC | minor changes
 2026-06-18 18:26:19 UTC | feat(parser): extend output format
 2026-06-18 23:34:32 UTC | fix(cache): patch broken validation
+2026-06-19 04:25:58 UTC | test(parser): update test fixtures
