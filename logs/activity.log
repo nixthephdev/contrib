@@ -137,3 +137,4 @@
 2026-06-23 00:49:05 UTC | quick fix
 2026-06-23 06:40:51 UTC | minor update
 2026-06-23 06:41:56 UTC | chore(parser): update default values
+2026-06-23 06:43:34 UTC | fix(validator): resolve edge case
