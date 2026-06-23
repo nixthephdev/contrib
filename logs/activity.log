@@ -138,3 +138,4 @@
 2026-06-23 06:40:51 UTC | minor update
 2026-06-23 06:41:56 UTC | chore(parser): update default values
 2026-06-23 06:43:34 UTC | fix(validator): resolve edge case
+2026-06-23 18:11:26 UTC | docs(utils): clarify function purpose
