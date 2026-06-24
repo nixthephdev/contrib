@@ -141,3 +141,4 @@
 2026-06-23 18:11:26 UTC | docs(utils): clarify function purpose
 2026-06-23 23:26:32 UTC | refactor(logger): refactor nested conditions
 2026-06-24 04:12:43 UTC | refactor(api): simplify conditional logic
+2026-06-24 04:13:51 UTC | refactor(auth): extract repeated block
