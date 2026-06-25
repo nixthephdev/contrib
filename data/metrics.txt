@@ -100,3 +100,4 @@
 2026-06-25 16:56:06 UTC | refactor(router): extract repeated block
 2026-06-25 20:04:36 UTC | clean up
 2026-06-25 23:44:11 UTC | perf(auth): reduce memory usage
+2026-06-25 23:46:30 UTC | feat(cache): extend output format
