@@ -95,3 +95,4 @@
 2026-06-25 16:55:32 UTC | minor fix
 2026-06-25 16:58:06 UTC | update config
 2026-06-25 20:03:11 UTC | test(logger): add missing assertions
+2026-06-25 23:43:18 UTC | perf(api): lazy load module
