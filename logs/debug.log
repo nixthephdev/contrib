@@ -89,3 +89,4 @@
 2026-06-24 23:32:13 UTC | chore(auth): clean up unused code
 2026-06-24 23:32:48 UTC | perf(ui): lazy load module
 2026-06-25 06:41:56 UTC | fix(config): resolve edge case
+2026-06-25 06:43:13 UTC | hotfix
