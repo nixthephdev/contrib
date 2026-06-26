@@ -113,3 +113,4 @@
 2026-06-26 08:11:54 UTC | perf(parser): lazy load module
 2026-06-26 08:12:51 UTC | test(router): add edge case tests
 2026-06-26 10:09:17 UTC | style(utils): consistent quotes
+2026-06-26 10:10:40 UTC | docs(validator): add usage example
