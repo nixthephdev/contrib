@@ -97,3 +97,4 @@
 2026-06-25 20:03:11 UTC | test(logger): add missing assertions
 2026-06-25 23:43:18 UTC | perf(api): lazy load module
 2026-06-25 23:44:51 UTC | test(parser): update test fixtures
+2026-06-26 06:29:56 UTC | hotfix
