@@ -114,3 +114,4 @@
 2026-06-26 08:12:51 UTC | test(router): add edge case tests
 2026-06-26 10:09:17 UTC | style(utils): consistent quotes
 2026-06-26 10:10:40 UTC | docs(validator): add usage example
+2026-06-26 11:38:43 UTC | feat(router): add utility helper
