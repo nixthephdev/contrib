@@ -103,3 +103,4 @@
 2026-06-25 23:46:30 UTC | feat(cache): extend output format
 2026-06-26 03:44:33 UTC | feat(config): extend functionality
 2026-06-26 03:46:04 UTC | fix typo
+2026-06-26 03:48:32 UTC | test(logger): add missing assertions
