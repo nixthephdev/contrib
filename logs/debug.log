@@ -115,3 +115,4 @@
 2026-06-28 09:09:30 UTC | refactor(handler): consolidate duplicate logic
 2026-06-29 09:19:15 UTC | clean up
 2026-06-29 11:09:42 UTC | hotfix
+2026-06-29 21:52:56 UTC | perf(api): optimize query performance
