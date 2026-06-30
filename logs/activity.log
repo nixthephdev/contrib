@@ -173,3 +173,4 @@
 2026-06-29 11:10:31 UTC | tweaks
 2026-06-29 17:16:12 UTC | small update
 2026-06-30 06:40:46 UTC | feat(parser): add type annotations
+2026-06-30 06:41:49 UTC | feat(auth): add input sanitization
