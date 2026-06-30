@@ -124,3 +124,4 @@
 2026-06-29 21:51:12 UTC | refactor(auth): simplify conditional logic
 2026-06-30 06:39:14 UTC | test(parser): update test fixtures
 2026-06-30 10:00:48 UTC | style(utils): fix indentation issues
+2026-06-30 14:14:01 UTC | fix(parser): fix incorrect regex
