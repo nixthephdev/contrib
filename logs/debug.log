@@ -117,3 +117,4 @@
 2026-06-29 11:09:42 UTC | hotfix
 2026-06-29 21:52:56 UTC | perf(api): optimize query performance
 2026-06-30 09:59:06 UTC | perf(utils): cache repeated calls
+2026-06-30 12:40:41 UTC | minor fix
