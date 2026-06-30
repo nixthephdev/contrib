@@ -122,3 +122,4 @@
 2026-06-29 09:16:24 UTC | docs(db): clarify function purpose
 2026-06-29 17:17:44 UTC | patch
 2026-06-29 21:51:12 UTC | refactor(auth): simplify conditional logic
+2026-06-30 06:39:14 UTC | test(parser): update test fixtures
