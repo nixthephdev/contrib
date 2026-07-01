@@ -127,3 +127,4 @@
 2026-06-30 14:14:01 UTC | fix(parser): fix incorrect regex
 2026-06-30 22:09:16 UTC | test(parser): fix flaky test
 2026-07-01 04:23:54 UTC | patch
+2026-07-01 08:48:48 UTC | test(api): add edge case tests
