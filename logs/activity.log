@@ -181,3 +181,4 @@
 2026-06-30 19:59:24 UTC | clean up
 2026-06-30 22:06:45 UTC | hotfix
 2026-06-30 22:07:49 UTC | quick fix
+2026-07-01 04:25:34 UTC | fix(validator): fix race condition
