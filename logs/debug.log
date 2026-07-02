@@ -126,3 +126,4 @@
 2026-07-02 06:38:49 UTC | feat(logger): add retry logic
 2026-07-02 09:16:14 UTC | quick fix
 2026-07-02 14:01:57 UTC | refactor(parser): consolidate duplicate logic
+2026-07-02 14:03:34 UTC | chore(db): remove dead code
