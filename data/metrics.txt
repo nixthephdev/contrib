@@ -134,3 +134,4 @@
 2026-07-02 06:39:50 UTC | minor update
 2026-07-02 09:14:44 UTC | test(db): add integration test
 2026-07-02 17:42:54 UTC | perf(auth): cache repeated calls
+2026-07-03 03:26:03 UTC | perf(handler): trim unnecessary dependencies
