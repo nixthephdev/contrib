@@ -207,3 +207,4 @@
 2026-07-03 19:41:04 UTC | docs(handler): update documentation
 2026-07-03 19:45:24 UTC | test(parser): update test fixtures
 2026-07-03 23:33:14 UTC | chore(config): routine maintenance
+2026-07-03 23:34:41 UTC | perf(config): trim unnecessary dependencies
