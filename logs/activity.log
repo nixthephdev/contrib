@@ -197,3 +197,4 @@
 2026-07-03 03:22:49 UTC | update notes
 2026-07-03 03:30:14 UTC | test(config): add missing assertions
 2026-07-03 08:00:16 UTC | fix typo
+2026-07-03 08:02:03 UTC | fix(handler): fix incorrect regex
