@@ -136,3 +136,4 @@
 2026-07-03 08:01:02 UTC | refactor(db): refactor nested conditions
 2026-07-03 09:54:08 UTC | patch
 2026-07-03 09:54:58 UTC | fix(router): add missing guard clause
+2026-07-03 12:29:47 UTC | fix(auth): add missing guard clause
