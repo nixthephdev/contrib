@@ -145,3 +145,4 @@
 2026-07-04 05:55:18 UTC | style(db): improve readability
 2026-07-05 09:14:19 UTC | patch
 2026-07-06 06:47:53 UTC | small update
+2026-07-06 12:47:28 UTC | docs(cache): add usage example
