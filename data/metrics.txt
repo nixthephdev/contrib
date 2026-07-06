@@ -146,3 +146,4 @@
 2026-07-05 09:14:19 UTC | patch
 2026-07-06 06:47:53 UTC | small update
 2026-07-06 12:47:28 UTC | docs(cache): add usage example
+2026-07-06 12:48:53 UTC | docs(parser): add param descriptions
