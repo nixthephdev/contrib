@@ -147,3 +147,4 @@
 2026-07-06 06:47:53 UTC | small update
 2026-07-06 12:47:28 UTC | docs(cache): add usage example
 2026-07-06 12:48:53 UTC | docs(parser): add param descriptions
+2026-07-06 23:20:44 UTC | refactor(db): simplify conditional logic
