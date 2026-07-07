@@ -148,3 +148,4 @@
 2026-07-06 12:47:28 UTC | docs(cache): add usage example
 2026-07-06 12:48:53 UTC | docs(parser): add param descriptions
 2026-07-06 23:20:44 UTC | refactor(db): simplify conditional logic
+2026-07-07 07:58:26 UTC | chore(db): remove redundant check
