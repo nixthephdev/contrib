@@ -161,3 +161,4 @@
 2026-07-08 06:45:02 UTC | docs(ui): add param descriptions
 2026-07-08 09:03:29 UTC | hotfix
 2026-07-08 09:05:04 UTC | refactor(handler): consolidate duplicate logic
+2026-07-08 09:06:04 UTC | docs(cache): add usage example
