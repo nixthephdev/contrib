@@ -223,3 +223,4 @@
 2026-07-07 18:12:07 UTC | test(logger): improve test coverage
 2026-07-07 18:12:53 UTC | perf(db): trim unnecessary dependencies
 2026-07-08 03:12:00 UTC | minor changes
+2026-07-08 03:13:28 UTC | docs(validator): add usage example
