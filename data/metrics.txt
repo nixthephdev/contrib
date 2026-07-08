@@ -156,3 +156,4 @@
 2026-07-08 14:09:01 UTC | chore(cache): update default values
 2026-07-08 16:07:52 UTC | feat(router): extend output format
 2026-07-08 21:02:28 UTC | style(db): fix indentation issues
+2026-07-08 21:03:26 UTC | chore(parser): clean up unused code
