@@ -153,3 +153,4 @@
 2026-07-07 18:14:23 UTC | small fix
 2026-07-08 10:37:36 UTC | fix(cache): fix incorrect regex
 2026-07-08 10:38:14 UTC | tweaks
+2026-07-08 14:09:01 UTC | chore(cache): update default values
