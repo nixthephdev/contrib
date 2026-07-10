@@ -173,3 +173,4 @@
 2026-07-09 11:32:22 UTC | patch
 2026-07-10 03:10:18 UTC | fixes
 2026-07-10 05:56:26 UTC | perf(handler): optimize query performance
+2026-07-10 05:57:37 UTC | feat(parser): add type annotations
