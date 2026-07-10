@@ -180,3 +180,4 @@
 2026-07-10 11:00:57 UTC | test(parser): update test fixtures
 2026-07-10 19:31:42 UTC | refactor(config): rename variable for clarity
 2026-07-10 19:33:21 UTC | wip
+2026-07-10 19:35:16 UTC | refactor(logger): consolidate duplicate logic
