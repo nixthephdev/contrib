@@ -167,3 +167,4 @@
 2026-07-10 06:01:43 UTC | perf(cache): improve response time
 2026-07-10 10:06:20 UTC | fix(config): resolve edge case
 2026-07-10 10:12:11 UTC | test(validator): update test fixtures
+2026-07-10 10:54:54 UTC | docs(ui): add param descriptions
