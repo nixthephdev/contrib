@@ -174,3 +174,4 @@
 2026-07-10 14:29:15 UTC | test(db): add integration test
 2026-07-10 14:31:46 UTC | fix(ui): add missing guard clause
 2026-07-10 19:31:59 UTC | clean up
+2026-07-11 05:42:33 UTC | fix(db): correct off-by-one error
