@@ -192,3 +192,4 @@
 2026-07-13 07:03:27 UTC | update
 2026-07-13 11:31:15 UTC | chore(router): update default values
 2026-07-13 11:32:18 UTC | feat(router): extend output format
+2026-07-13 12:34:56 UTC | feat(cache): add utility helper
