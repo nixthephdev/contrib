@@ -204,3 +204,4 @@
 2026-07-14 23:11:26 UTC | minor tweaks
 2026-07-15 02:25:25 UTC | minor fix
 2026-07-15 05:13:31 UTC | style(api): consistent quotes
+2026-07-15 05:16:29 UTC | chore(handler): remove dead code
