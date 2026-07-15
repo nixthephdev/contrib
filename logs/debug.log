@@ -206,3 +206,4 @@
 2026-07-15 05:13:31 UTC | style(api): consistent quotes
 2026-07-15 05:16:29 UTC | chore(handler): remove dead code
 2026-07-15 10:38:58 UTC | clean up
+2026-07-15 10:39:33 UTC | chore(api): remove redundant check
