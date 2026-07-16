@@ -207,3 +207,4 @@
 2026-07-15 05:16:29 UTC | chore(handler): remove dead code
 2026-07-15 10:38:58 UTC | clean up
 2026-07-15 10:39:33 UTC | chore(api): remove redundant check
+2026-07-16 02:58:04 UTC | perf(parser): lazy load module
