@@ -218,3 +218,4 @@
 2026-07-17 15:38:25 UTC | feat(handler): add input sanitization
 2026-07-17 15:39:45 UTC | refactor(handler): update interface contract
 2026-07-17 17:50:06 UTC | chore(router): clean up unused code
+2026-07-17 17:51:46 UTC | chore(handler): remove redundant check
