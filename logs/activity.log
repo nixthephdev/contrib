@@ -263,3 +263,4 @@
 2026-07-16 08:26:15 UTC | chore(api): update dependencies
 2026-07-16 23:28:26 UTC | style(db): normalize spacing
 2026-07-17 03:55:31 UTC | fix(api): fix off-by-one
+2026-07-17 06:38:41 UTC | perf(config): cache repeated calls
