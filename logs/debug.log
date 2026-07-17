@@ -218,3 +218,4 @@
 2026-07-17 06:36:19 UTC | chore(handler): remove redundant check
 2026-07-17 06:39:34 UTC | refactor(logger): update interface contract
 2026-07-17 13:41:21 UTC | chore(config): update dependencies
+2026-07-17 13:42:43 UTC | feat(cache): extend output format
