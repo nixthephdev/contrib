@@ -272,3 +272,4 @@
 2026-07-17 17:49:33 UTC | feat(auth): add new endpoint
 2026-07-18 02:54:30 UTC | fix(parser): fix broken flow
 2026-07-18 08:14:41 UTC | small fix
+2026-07-18 08:17:24 UTC | feat(api): add retry logic
