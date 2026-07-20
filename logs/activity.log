@@ -287,3 +287,4 @@
 2026-07-20 20:08:08 UTC | fix(handler): handle null values
 2026-07-20 20:12:05 UTC | tweaks
 2026-07-20 21:13:35 UTC | small fix
+2026-07-20 21:15:36 UTC | refactor(db): simplify conditional logic
