@@ -284,3 +284,4 @@
 2026-07-20 12:24:29 UTC | test(validator): add integration test
 2026-07-20 17:50:31 UTC | style(cache): remove trailing whitespace
 2026-07-20 17:50:58 UTC | perf(ui): trim unnecessary dependencies
+2026-07-20 20:08:08 UTC | fix(handler): handle null values
