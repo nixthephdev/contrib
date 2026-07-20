@@ -281,3 +281,4 @@
 2026-07-20 09:01:25 UTC | small update
 2026-07-20 09:02:38 UTC | wip
 2026-07-20 12:22:21 UTC | test(router): add edge case tests
+2026-07-20 12:24:29 UTC | test(validator): add integration test
