@@ -230,3 +230,4 @@
 2026-07-20 06:57:57 UTC | clean up
 2026-07-20 06:59:02 UTC | chore(parser): remove redundant check
 2026-07-20 21:17:13 UTC | test(cache): add integration test
+2026-07-21 03:05:56 UTC | fix(parser): patch broken validation
