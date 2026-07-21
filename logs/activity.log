@@ -289,3 +289,4 @@
 2026-07-20 21:13:35 UTC | small fix
 2026-07-20 21:15:36 UTC | refactor(db): simplify conditional logic
 2026-07-21 03:08:56 UTC | patch
+2026-07-21 05:16:50 UTC | fix(auth): add missing return
