@@ -232,3 +232,4 @@
 2026-07-20 21:17:13 UTC | test(cache): add integration test
 2026-07-21 03:05:56 UTC | fix(parser): patch broken validation
 2026-07-21 08:47:40 UTC | minor fix
+2026-07-21 21:40:42 UTC | test(router): improve test coverage
