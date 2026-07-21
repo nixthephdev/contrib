@@ -233,3 +233,4 @@
 2026-07-20 09:02:57 UTC | feat(parser): add input sanitization
 2026-07-20 12:22:58 UTC | minor fix
 2026-07-20 17:50:07 UTC | refactor(handler): consolidate duplicate logic
+2026-07-21 03:07:24 UTC | docs(router): update inline notes
