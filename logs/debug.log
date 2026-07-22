@@ -237,3 +237,4 @@
 2026-07-22 05:56:11 UTC | cleanup
 2026-07-22 05:58:23 UTC | tidy up
 2026-07-22 06:34:26 UTC | docs(logger): update documentation
+2026-07-22 08:38:24 UTC | chore(validator): remove redundant check
