@@ -241,3 +241,4 @@
 2026-07-21 13:55:45 UTC | chore(ui): update dependencies
 2026-07-21 15:48:44 UTC | fix typo
 2026-07-21 15:49:06 UTC | tidy up
+2026-07-22 03:15:39 UTC | refactor(router): update interface contract
