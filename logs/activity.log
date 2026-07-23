@@ -301,3 +301,4 @@
 2026-07-22 15:58:36 UTC | minor fix
 2026-07-23 03:11:36 UTC | feat(handler): extend output format
 2026-07-23 06:56:33 UTC | test(logger): improve test coverage
+2026-07-23 08:32:54 UTC | test(logger): add missing assertions
