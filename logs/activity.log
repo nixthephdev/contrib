@@ -304,3 +304,4 @@
 2026-07-23 08:32:54 UTC | test(logger): add missing assertions
 2026-07-23 16:06:20 UTC | refactor(parser): extract repeated block
 2026-07-23 22:50:23 UTC | refactor(cache): extract repeated block
+2026-07-24 03:08:35 UTC | docs(parser): add usage example
