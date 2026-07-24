@@ -271,3 +271,4 @@
 2026-07-24 11:59:33 UTC | perf(cache): reduce memory usage
 2026-07-24 16:03:10 UTC | clean up
 2026-07-24 16:05:48 UTC | minor tweaks
+2026-07-24 19:18:41 UTC | style(handler): consistent quotes
