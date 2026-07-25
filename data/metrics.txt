@@ -275,3 +275,4 @@
 2026-07-24 19:20:22 UTC | style(api): remove trailing whitespace
 2026-07-25 02:55:12 UTC | chore(handler): remove redundant check
 2026-07-25 05:12:17 UTC | tweaks
+2026-07-25 06:18:57 UTC | refactor(db): consolidate duplicate logic
