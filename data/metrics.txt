@@ -283,3 +283,4 @@
 2026-07-27 07:47:33 UTC | test(api): fix flaky test
 2026-07-27 14:43:38 UTC | cleanup
 2026-07-27 18:15:51 UTC | tweaks
+2026-07-27 23:11:57 UTC | perf(db): trim unnecessary dependencies
