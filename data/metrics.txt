@@ -289,3 +289,4 @@
 2026-07-28 11:12:38 UTC | fix(db): patch broken validation
 2026-07-28 13:40:43 UTC | docs(cache): add param descriptions
 2026-07-28 23:18:03 UTC | small update
+2026-07-28 23:18:31 UTC | perf(config): trim unnecessary dependencies
