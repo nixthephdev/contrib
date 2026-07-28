@@ -286,3 +286,4 @@
 2026-07-27 23:11:57 UTC | perf(db): trim unnecessary dependencies
 2026-07-27 23:13:48 UTC | patch
 2026-07-27 23:14:13 UTC | test(router): update test fixtures
+2026-07-28 11:12:38 UTC | fix(db): patch broken validation
