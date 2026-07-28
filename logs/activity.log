@@ -329,3 +329,4 @@
 2026-07-27 06:08:24 UTC | fix(validator): add missing return
 2026-07-28 05:27:56 UTC | refactor(validator): consolidate duplicate logic
 2026-07-28 05:28:33 UTC | docs(api): add usage example
+2026-07-28 09:05:52 UTC | docs(cache): update inline notes
