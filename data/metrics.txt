@@ -308,3 +308,4 @@
 2026-07-31 11:22:58 UTC | refactor(router): refactor nested conditions
 2026-07-31 12:32:41 UTC | style(db): clean up formatting
 2026-07-31 12:36:44 UTC | small fix
+2026-07-31 13:42:30 UTC | chore(config): update default values
