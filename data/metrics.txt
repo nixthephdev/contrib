@@ -300,3 +300,4 @@
 2026-07-30 06:40:57 UTC | fix(config): patch broken validation
 2026-07-31 05:29:52 UTC | test(parser): fix flaky test
 2026-07-31 05:30:09 UTC | tidy up
+2026-07-31 05:31:28 UTC | perf(ui): lazy load module
