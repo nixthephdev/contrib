@@ -316,3 +316,4 @@
 2026-08-02 02:48:57 UTC | feat(api): add type annotations
 2026-08-03 10:12:10 UTC | test(ui): add missing assertions
 2026-08-03 21:30:21 UTC | test(parser): update test fixtures
+2026-08-03 21:31:24 UTC | refactor(validator): extract repeated block
