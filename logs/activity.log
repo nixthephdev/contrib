@@ -374,3 +374,4 @@
 2026-08-03 10:14:56 UTC | style(router): consistent quotes
 2026-08-03 14:20:14 UTC | update config
 2026-08-03 14:20:51 UTC | perf(config): cache repeated calls
+2026-08-04 11:03:03 UTC | style(handler): improve readability
