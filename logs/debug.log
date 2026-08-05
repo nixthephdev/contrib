@@ -313,3 +313,4 @@
 2026-08-05 10:41:45 UTC | cleanup
 2026-08-05 10:42:39 UTC | tidy up
 2026-08-05 17:33:14 UTC | fix(utils): resolve edge case
+2026-08-05 19:32:52 UTC | docs(handler): add param descriptions
