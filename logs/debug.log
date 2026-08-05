@@ -309,3 +309,4 @@
 2026-08-04 17:55:30 UTC | tidy up
 2026-08-04 19:42:09 UTC | minor changes
 2026-08-05 02:38:52 UTC | refactor(api): update interface contract
+2026-08-05 06:41:42 UTC | feat(api): add retry logic
