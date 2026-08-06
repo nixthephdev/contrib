@@ -337,3 +337,4 @@
 2026-08-06 11:05:24 UTC | wip
 2026-08-06 11:06:31 UTC | perf(api): improve response time
 2026-08-06 12:02:46 UTC | docs(config): clarify function purpose
+2026-08-06 12:04:47 UTC | docs(db): add param descriptions
