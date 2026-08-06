@@ -316,3 +316,4 @@
 2026-08-05 19:32:52 UTC | docs(handler): add param descriptions
 2026-08-06 05:28:17 UTC | fix(api): correct off-by-one error
 2026-08-06 06:59:02 UTC | fix(logger): handle null values
+2026-08-06 11:07:02 UTC | style(db): clean up formatting
