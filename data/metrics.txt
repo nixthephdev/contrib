@@ -340,3 +340,4 @@
 2026-08-06 12:04:47 UTC | docs(db): add param descriptions
 2026-08-06 12:06:30 UTC | feat(validator): add input sanitization
 2026-08-06 14:05:50 UTC | fix(handler): fix broken flow
+2026-08-06 14:08:02 UTC | fix(parser): add missing guard clause
