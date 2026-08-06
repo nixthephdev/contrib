@@ -383,3 +383,4 @@
 2026-08-05 17:31:26 UTC | fix(cache): add missing return
 2026-08-05 17:32:40 UTC | minor tweaks
 2026-08-06 06:57:28 UTC | refactor(parser): update interface contract
+2026-08-06 09:13:00 UTC | feat(db): add new endpoint
