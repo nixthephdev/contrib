@@ -401,3 +401,4 @@
 2026-08-07 09:34:42 UTC | test(router): fix flaky test
 2026-08-07 11:06:35 UTC | chore(config): update dependencies
 2026-08-07 11:07:27 UTC | chore(utils): remove redundant check
+2026-08-07 13:20:24 UTC | perf(cache): trim unnecessary dependencies
