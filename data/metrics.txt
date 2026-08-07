@@ -342,3 +342,4 @@
 2026-08-06 14:05:50 UTC | fix(handler): fix broken flow
 2026-08-06 14:08:02 UTC | fix(parser): add missing guard clause
 2026-08-07 00:20:03 UTC | perf(cache): reduce memory usage
+2026-08-07 00:21:43 UTC | refactor(cache): update interface contract
