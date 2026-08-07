@@ -360,3 +360,4 @@
 2026-08-07 17:35:12 UTC | feat(utils): add new endpoint
 2026-08-07 17:38:56 UTC | test(router): fix flaky test
 2026-08-07 20:42:08 UTC | perf(ui): cache repeated calls
+2026-08-07 20:47:10 UTC | feat(handler): extend output format
