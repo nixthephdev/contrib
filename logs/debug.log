@@ -322,3 +322,4 @@
 2026-08-07 01:13:44 UTC | docs(logger): add usage example
 2026-08-07 01:15:20 UTC | minor fix
 2026-08-07 01:19:36 UTC | style(db): normalize spacing
+2026-08-07 02:46:35 UTC | fix(cache): correct off-by-one error
