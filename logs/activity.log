@@ -407,3 +407,4 @@
 2026-08-07 17:36:56 UTC | minor fix
 2026-08-07 20:44:28 UTC | docs(config): update documentation
 2026-08-07 20:46:48 UTC | quick fix
+2026-08-08 10:28:54 UTC | fix(ui): handle null values
