@@ -369,3 +369,4 @@
 2026-08-11 09:34:29 UTC | fix(cache): fix incorrect regex
 2026-08-11 09:35:17 UTC | fix(api): handle null values
 2026-08-11 12:53:14 UTC | tidy up
+2026-08-12 15:26:20 UTC | update config
