@@ -363,3 +363,4 @@
 2026-08-14 13:12:59 UTC | refactor(api): consolidate duplicate logic
 2026-08-14 13:14:15 UTC | feat(db): add retry logic
 2026-08-14 18:45:44 UTC | fix(parser): fix incorrect regex
+2026-08-14 18:46:28 UTC | test(handler): add edge case tests
