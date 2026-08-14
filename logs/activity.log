@@ -435,3 +435,4 @@
 2026-08-14 09:16:54 UTC | minor fix
 2026-08-14 09:18:38 UTC | minor update
 2026-08-14 11:23:11 UTC | test(ui): add edge case tests
+2026-08-14 11:29:27 UTC | feat(parser): add type annotations
