@@ -360,3 +360,4 @@
 2026-08-14 09:16:31 UTC | refactor(cache): consolidate duplicate logic
 2026-08-14 09:19:26 UTC | chore(cache): update default values
 2026-08-14 11:30:08 UTC | test(validator): add missing assertions
+2026-08-14 13:12:59 UTC | refactor(api): consolidate duplicate logic
