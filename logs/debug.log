@@ -358,3 +358,4 @@
 2026-08-14 05:53:17 UTC | perf(parser): lazy load module
 2026-08-14 07:38:28 UTC | style(utils): normalize spacing
 2026-08-14 09:16:31 UTC | refactor(cache): consolidate duplicate logic
+2026-08-14 09:19:26 UTC | chore(cache): update default values
