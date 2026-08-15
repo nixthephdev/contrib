@@ -391,3 +391,4 @@
 2026-08-15 05:06:54 UTC | minor update
 2026-08-15 06:56:27 UTC | perf(handler): cache repeated calls
 2026-08-15 12:16:03 UTC | fix(parser): add missing return
+2026-08-15 22:30:58 UTC | docs(cache): add param descriptions
