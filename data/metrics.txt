@@ -389,3 +389,4 @@
 2026-08-14 18:43:51 UTC | docs(db): add usage example
 2026-08-15 05:04:09 UTC | fix(router): resolve edge case
 2026-08-15 05:06:54 UTC | minor update
+2026-08-15 06:56:27 UTC | perf(handler): cache repeated calls
