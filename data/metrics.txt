@@ -402,3 +402,4 @@
 2026-08-17 07:14:29 UTC | docs(validator): add usage example
 2026-08-17 07:16:32 UTC | patch
 2026-08-17 09:23:16 UTC | tweaks
+2026-08-17 10:56:28 UTC | fix(validator): resolve edge case
