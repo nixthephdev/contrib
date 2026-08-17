@@ -403,3 +403,4 @@
 2026-08-17 07:16:32 UTC | patch
 2026-08-17 09:23:16 UTC | tweaks
 2026-08-17 10:56:28 UTC | fix(validator): resolve edge case
+2026-08-17 12:25:24 UTC | fix(config): handle null values
