@@ -444,3 +444,4 @@
 2026-08-17 02:57:02 UTC | docs(ui): clarify function purpose
 2026-08-17 02:57:34 UTC | minor update
 2026-08-17 07:16:51 UTC | cleanup
+2026-08-17 09:25:08 UTC | test(router): add integration test
