@@ -447,3 +447,4 @@
 2026-08-17 09:25:08 UTC | test(router): add integration test
 2026-08-17 10:57:54 UTC | minor changes
 2026-08-18 01:32:03 UTC | test(parser): add integration test
+2026-08-18 04:46:43 UTC | test(validator): add edge case tests
