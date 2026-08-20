@@ -388,3 +388,4 @@
 2026-08-19 11:08:14 UTC | patch
 2026-08-20 03:20:58 UTC | chore(config): update dependencies
 2026-08-20 07:19:09 UTC | refactor(validator): extract repeated block
+2026-08-20 09:10:54 UTC | test(auth): add missing assertions
