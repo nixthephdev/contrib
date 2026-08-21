@@ -401,3 +401,4 @@
 2026-08-21 07:12:33 UTC | update config
 2026-08-21 09:19:22 UTC | small fix
 2026-08-21 09:23:35 UTC | refactor(auth): extract repeated block
+2026-08-21 10:40:15 UTC | refactor(ui): simplify conditional logic
