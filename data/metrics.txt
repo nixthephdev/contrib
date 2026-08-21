@@ -437,3 +437,4 @@
 2026-08-21 10:36:27 UTC | fix(db): handle null values
 2026-08-21 10:37:10 UTC | style(cache): normalize spacing
 2026-08-21 10:39:04 UTC | minor tweaks
+2026-08-21 23:01:57 UTC | docs(auth): add param descriptions
