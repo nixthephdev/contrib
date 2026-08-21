@@ -403,3 +403,4 @@
 2026-08-21 09:23:35 UTC | refactor(auth): extract repeated block
 2026-08-21 10:40:15 UTC | refactor(ui): simplify conditional logic
 2026-08-21 23:00:17 UTC | fix(cache): add missing guard clause
+2026-08-21 23:03:54 UTC | feat(db): add input sanitization
