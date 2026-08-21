@@ -430,3 +430,4 @@
 2026-08-21 05:03:55 UTC | test(router): add missing assertions
 2026-08-21 07:03:20 UTC | chore(parser): update dependencies
 2026-08-21 07:05:11 UTC | fix(utils): add missing guard clause
+2026-08-21 07:06:17 UTC | perf(handler): reduce memory usage
