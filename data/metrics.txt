@@ -454,3 +454,4 @@
 2026-08-24 07:06:09 UTC | patch
 2026-08-25 01:17:14 UTC | chore(ui): routine maintenance
 2026-08-25 01:20:16 UTC | fix typo
+2026-08-26 01:39:53 UTC | perf(logger): trim unnecessary dependencies
