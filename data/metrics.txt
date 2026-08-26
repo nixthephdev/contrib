@@ -456,3 +456,4 @@
 2026-08-25 01:20:16 UTC | fix typo
 2026-08-26 01:39:53 UTC | perf(logger): trim unnecessary dependencies
 2026-08-26 09:18:51 UTC | feat(auth): add utility helper
+2026-08-26 09:20:16 UTC | minor fix
