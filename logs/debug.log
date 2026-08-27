@@ -426,3 +426,4 @@
 2026-08-25 11:00:54 UTC | perf(router): cache repeated calls
 2026-08-26 03:21:20 UTC | small fix
 2026-08-26 07:22:01 UTC | fix(config): handle null values
+2026-08-27 03:05:17 UTC | test(db): add edge case tests
