@@ -428,3 +428,4 @@
 2026-08-26 07:22:01 UTC | fix(config): handle null values
 2026-08-27 03:05:17 UTC | test(db): add edge case tests
 2026-08-27 07:43:09 UTC | test(api): update test fixtures
+2026-08-27 07:45:16 UTC | feat(router): add input sanitization
