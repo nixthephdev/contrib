@@ -457,3 +457,4 @@
 2026-08-26 01:39:53 UTC | perf(logger): trim unnecessary dependencies
 2026-08-26 09:18:51 UTC | feat(auth): add utility helper
 2026-08-26 09:20:16 UTC | minor fix
+2026-08-27 03:07:06 UTC | refactor(config): update interface contract
