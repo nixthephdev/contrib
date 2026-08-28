@@ -501,3 +501,4 @@
 2026-08-27 07:43:45 UTC | style(db): remove trailing whitespace
 2026-08-28 01:16:38 UTC | style(cache): remove trailing whitespace
 2026-08-28 02:08:57 UTC | feat(utils): extend output format
+2026-08-28 04:37:23 UTC | test(db): add missing assertions
