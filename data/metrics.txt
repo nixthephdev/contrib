@@ -472,3 +472,4 @@
 2026-08-28 06:29:51 UTC | minor tweaks
 2026-08-28 16:08:48 UTC | minor changes
 2026-08-28 20:18:49 UTC | docs(utils): update documentation
+2026-08-28 22:02:04 UTC | perf(handler): trim unnecessary dependencies
