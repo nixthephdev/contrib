@@ -432,3 +432,4 @@
 2026-08-27 12:21:51 UTC | clean up
 2026-08-27 17:26:34 UTC | minor tweaks
 2026-08-28 01:14:15 UTC | test(cache): improve test coverage
+2026-08-28 02:09:28 UTC | perf(router): lazy load module
