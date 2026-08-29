@@ -475,3 +475,4 @@
 2026-08-28 22:02:04 UTC | perf(handler): trim unnecessary dependencies
 2026-08-29 03:29:57 UTC | docs(handler): add usage example
 2026-08-29 09:07:45 UTC | chore(validator): clean up unused code
+2026-08-29 12:26:33 UTC | tidy up
