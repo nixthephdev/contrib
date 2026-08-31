@@ -449,3 +449,4 @@
 2026-08-29 12:27:08 UTC | update
 2026-08-29 12:28:43 UTC | fix(validator): fix incorrect regex
 2026-08-31 08:23:50 UTC | fix(utils): add missing guard clause
+2026-08-31 11:25:29 UTC | fix(router): handle null values
