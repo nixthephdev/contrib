@@ -481,3 +481,4 @@
 2026-08-30 10:21:02 UTC | small update
 2026-08-30 10:22:14 UTC | perf(utils): lazy load module
 2026-08-31 13:23:25 UTC | minor tweaks
+2026-08-31 17:58:38 UTC | test(parser): update test fixtures
