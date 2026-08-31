@@ -520,3 +520,4 @@
 2026-08-31 00:47:40 UTC | fix typo
 2026-08-31 08:22:22 UTC | perf(logger): cache repeated calls
 2026-08-31 08:25:14 UTC | test(config): improve test coverage
+2026-08-31 08:25:39 UTC | perf(utils): lazy load module
