@@ -529,3 +529,4 @@
 2026-09-01 11:38:52 UTC | refactor(auth): simplify conditional logic
 2026-09-01 15:55:30 UTC | test(parser): add integration test
 2026-09-01 15:58:04 UTC | test(config): improve test coverage
+2026-09-01 18:14:22 UTC | test(config): add integration test
