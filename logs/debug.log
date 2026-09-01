@@ -451,3 +451,4 @@
 2026-08-31 08:23:50 UTC | fix(utils): add missing guard clause
 2026-08-31 11:25:29 UTC | fix(router): handle null values
 2026-08-31 17:59:19 UTC | quick fix
+2026-09-01 01:15:13 UTC | chore(router): clean up unused code
