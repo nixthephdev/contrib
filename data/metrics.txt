@@ -483,3 +483,4 @@
 2026-08-31 13:23:25 UTC | minor tweaks
 2026-08-31 17:58:38 UTC | test(parser): update test fixtures
 2026-08-31 23:42:15 UTC | perf(router): improve response time
+2026-09-01 01:17:30 UTC | perf(handler): lazy load module
