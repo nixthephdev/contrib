@@ -531,3 +531,4 @@
 2026-09-01 15:58:04 UTC | test(config): improve test coverage
 2026-09-01 18:14:22 UTC | test(config): add integration test
 2026-09-02 03:48:33 UTC | chore(handler): remove dead code
+2026-09-02 05:27:54 UTC | refactor(cache): consolidate duplicate logic
