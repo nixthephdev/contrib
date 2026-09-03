@@ -467,3 +467,4 @@
 2026-09-03 11:20:30 UTC | fix(utils): correct off-by-one error
 2026-09-03 11:23:13 UTC | update config
 2026-09-03 13:08:40 UTC | docs(handler): update documentation
+2026-09-03 13:11:14 UTC | feat(config): add utility helper
