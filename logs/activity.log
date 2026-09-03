@@ -537,3 +537,4 @@
 2026-09-03 06:47:33 UTC | update
 2026-09-03 11:22:43 UTC | style(validator): consistent quotes
 2026-09-03 13:07:10 UTC | small fix
+2026-09-03 13:10:15 UTC | refactor(parser): refactor nested conditions
