@@ -482,3 +482,4 @@
 2026-09-04 08:45:47 UTC | docs(cache): update documentation
 2026-09-04 11:16:53 UTC | docs(ui): update documentation
 2026-09-04 14:17:35 UTC | style(utils): fix indentation issues
+2026-09-04 14:19:08 UTC | perf(ui): trim unnecessary dependencies
