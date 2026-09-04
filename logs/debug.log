@@ -470,3 +470,4 @@
 2026-09-03 13:11:14 UTC | feat(config): add utility helper
 2026-09-04 03:42:06 UTC | refactor(handler): consolidate duplicate logic
 2026-09-04 03:46:13 UTC | chore(handler): remove redundant check
+2026-09-04 03:49:43 UTC | perf(logger): trim unnecessary dependencies
