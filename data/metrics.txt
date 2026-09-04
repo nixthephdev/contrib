@@ -504,3 +504,4 @@
 2026-09-04 07:10:55 UTC | chore(auth): update default values
 2026-09-04 08:46:41 UTC | fixes
 2026-09-04 11:11:48 UTC | test(router): add edge case tests
+2026-09-04 14:20:28 UTC | refactor(utils): simplify conditional logic
