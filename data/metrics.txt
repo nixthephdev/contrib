@@ -519,3 +519,4 @@
 2026-09-05 08:30:42 UTC | feat(cache): add type annotations
 2026-09-05 13:42:31 UTC | refactor(parser): consolidate duplicate logic
 2026-09-05 18:05:11 UTC | test(cache): add missing assertions
+2026-09-05 19:59:33 UTC | test(config): add integration test
