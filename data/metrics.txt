@@ -516,3 +516,4 @@
 2026-09-04 19:28:31 UTC | feat(utils): add new endpoint
 2026-09-04 19:28:58 UTC | chore(logger): routine maintenance
 2026-09-05 06:40:36 UTC | tidy up
+2026-09-05 08:30:42 UTC | feat(cache): add type annotations
