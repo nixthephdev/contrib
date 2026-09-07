@@ -521,3 +521,4 @@
 2026-09-05 18:05:11 UTC | test(cache): add missing assertions
 2026-09-05 19:59:33 UTC | test(config): add integration test
 2026-09-07 03:46:16 UTC | refactor(router): refactor nested conditions
+2026-09-07 12:23:09 UTC | refactor(ui): simplify conditional logic
