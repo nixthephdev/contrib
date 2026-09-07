@@ -498,3 +498,4 @@
 2026-09-07 12:24:56 UTC | refactor(utils): consolidate duplicate logic
 2026-09-07 15:40:22 UTC | quick fix
 2026-09-07 15:40:49 UTC | style(utils): normalize spacing
+2026-09-07 15:42:40 UTC | test(router): add missing assertions
